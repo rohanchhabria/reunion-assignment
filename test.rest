@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/signup
+content-type: application/json
+
+{
+    "name": "sanjheev",
+    "email": "sanjheev@test.com",
+    "password": "sanjheev123"
+}
+
+###
+POST http://localhost:5000/api/login
+content-type: application/json
+
+{
+    "email": "rohan@test.com",
+    "password": "rohan123"
+}
+
+###
+POST http://localhost:5000/api/follow/634701ce0a8ca7686f012338
+content-type: application/json
+Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzQ2ZmQ4Y2MzZjA4MjA2MDg1NTQ2YTUiLCJpYXQiOjE2NjU1OTg3MzJ9.oywts3rcZger01WrjdkAlpP_o6fXfo-nb1EO-UqYX5Y
+{
+
+}
